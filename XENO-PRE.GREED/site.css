@@ -1,0 +1,669 @@
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    background-color: #999;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1140px;
+    margin: auto;
+}
+.slider{
+    background-image: url(slider-bg.jpg );
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    padding: 250px 0;
+}
+.menu{
+    padding: 20px;
+    background-color: white;
+    border-radius: 6px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    
+
+}
+.menu .logo{
+    float: left;
+    padding-left: 5px;
+}
+.menu ul{
+    margin-left: 100px;
+    padding-right: 216px;
+    margin-bottom: 10px;
+    display: block;
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    
+}
+.menu ul li .activ{
+    background-color: #52B6E5;
+    color: white;
+    
+
+}
+.menu ul li a{
+    text-decoration: none;
+    margin-left: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 16px;
+     padding: 31px 20px;
+     color: #999;
+}
+.menu ul li a:hover{
+    background-color: #52B6E5;
+    color: white;
+}
+/* content-START */
+.content h2{
+    text-align: center;
+    font-size: 68px;
+    color: white;
+    margin-bottom: 10px;
+}
+.content p{
+    text-align: center;
+    color: white;
+    font-size: 23px;
+}
+.dot{
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: #999;
+    float: left;
+    position: fixed;
+    top: 300px;
+    left: 10px;
+}
+.dot a i{
+    text-align: center;
+    margin: 15px 18px;
+    font-size: 20px;
+    color: white;
+}
+.dot-2{
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: #999;
+    float: right;
+    position: fixed;
+    top: 300px;
+    right: 10px;
+}
+.dot-2 a i{
+    text-align: center;
+    margin: 15px 18px;
+    font-size: 20px;
+    color: white;
+}
+/* BOX-1 .START */
+.box-1{
+    height: 500px;
+    margin-top: -40px;
+    background-color:white;
+    border-radius: 5px 5px 0 0;
+
+}
+.center{
+    text-align: center;
+    padding: 50px 30px;
+}
+.center a.apple{
+    padding: 25px 25px;
+    background-color: orangered;
+    border-radius: 50%;
+    text-align: center;
+}
+.center a i{
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+}
+.center h2{
+    margin-top: 30px;
+    font-size: 18px;
+    color: rgb(130, 128, 128);
+    font-weight: normal;
+}
+.center p{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #999;
+}
+.center a.android{
+    padding: 25px 22px;
+    background-color: green;
+    border-radius: 50%;
+    text-align: center;
+}
+.center a.Windows{
+    padding: 25px 25px;
+    background-color: #3498db;
+    border-radius: 50%;
+    text-align: center;
+}
+.center a.thumbs{
+    padding: 25px 23px;
+    background-color: #2c3e50;
+    border-radius: 50%;
+    text-align: center;
+}
+.center a.java{
+    padding: 25px 25px;
+    background-color: #1abc9c;
+    border-radius: 50%;
+    text-align: center;
+}
+.center a.halved{
+    padding: 25px 23px;
+    background-color:#8e44ad;
+    border-radius: 50%;
+    text-align: center;
+}
+
+/* portfolio......START */
+.portfolio{
+    margin-top: 1px;
+    background-color: #f3f3f3;
+    text-align: center;
+}
+.portfolio h2{
+    padding-top: 30px;
+    font-size: 50px;
+    color: #333;
+    font-weight: 300;
+}
+.portfolio p{
+    margin-top: 19px;
+    text-align: center;
+    font-size: 20px;
+    color: #777;
+    padding: 0 200px;
+    margin-bottom: 10px;
+}
+.portfolio ul{
+    list-style: none;
+    text-align: center;
+    padding-left: 420px;
+}
+.portfolio ul li{
+    float: left;
+}
+.portfolio ul li a button{
+    color: white;
+    height: 30px;
+    padding: 2px 10px;
+    background-color: #1586c3;
+    border: solid 2px #3da792;
+    margin-right: 5px;
+    border-radius: 3px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.portfolio .activ{
+    background-color: #1c648b;
+}
+
+.portfolio ul li a button:hover{
+    background-color: #1c648b;
+}
+/* portfolio-box...start */
+.portfolio-box{
+    padding: 0px 30px ;
+    margin-top: 20px;
+    position: relative;
+}
+.item{
+    border: solid 9px rgb(190, 188, 188);
+    margin-bottom: 40px;
+}
+.item img{
+    height: 185px;
+}
+.item h5{
+    background-color: white;
+    font-size: 14px;
+    color: rgb(79, 78, 78);
+}
+.overly{
+    padding: 85px 99px;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 9px;
+    opacity: 0;
+    transition: 0.1s;
+}
+.overly a{
+    padding: 8px 8px;
+    background-color: #d9534f;
+    border-radius: 6px;
+
+}
+.overly a i{
+    font-size: 15px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+}
+.item .overly:hover{
+    opacity: 0.9;
+}
+
+.overly-1{
+    padding: 85px 99px;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 9px;
+    /* opacity: 0; */
+    transition: 0.1s;
+}
+.overly-1 a{
+    padding: 8px 8px;
+    background-color: #d9534f;
+    border-radius: 6px;
+
+}
+.overly-1 a i{
+    font-size: 15px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+}
+/* -PRICINGS...-START */
+.Pricings{
+    margin-top: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #F9F9F9;
+}
+.Pricings h2{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 50px;
+    color: #333;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.Pricings p{
+    text-align: center;
+    font-size: 20px;
+    color: #777;
+    padding: 0 200px;
+    margin-bottom: 30px;
+}
+/* pricing-table...START */
+.pricing-table {
+    /* padding: 0 20px; */
+    margin-bottom: 50px;
+}
+.pricing-table .plan{
+    background: white;
+    list-style: none;
+    margin: 0 0 20px;
+    text-align: center;
+    padding: 0;
+    border-bottom: 1px solid #e1e1e1;
+}
+.pricing-table ul li a{
+    text-decoration: none;
+    color: #777;
+}
+
+.pricing-table .plan li{
+    list-style: none;
+    text-decoration: none;
+    margin-left: 0 15px;
+    border-bottom: 1px #eee dashed;
+    padding: 10px 0;
+}
+.pricing-table .plan-name{
+    text-decoration: none;
+    text-align: center;
+    padding: px 0;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 0 15px;
+    color: #666;
+    border-bottom: 1px #eee dashed;
+}
+.pricing-table .plan-pricing{
+    text-decoration: none;
+    text-align: center;
+    padding: 0;
+    font-size: 58px;
+    font-weight: 700;
+    margin-left: 0 15px;
+    color: #666;
+    border-bottom: 1px #eee dashed;
+}
+.pricing-table .plan-pricing:hover{
+    background-color: #52B6E5;
+}
+.pricing-table .plan .btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 16px;
+    border-radius: 5px;
+    color: white;
+    background-color: #3498db;
+    border: solid 2px #3498db;
+}
+.pricing-table .plan .btn:hover{
+    background-color: #1c648b;
+}
+
+.pricing-table-2 {
+    /* padding: 0 20px; */
+    margin-bottom: 50px;
+}
+.pricing-table-2 .plan{
+    background: white;
+    list-style: none;
+    margin: 0 0 20px;
+    text-align: center;
+    padding: 0;
+    border-bottom: 1px solid #e1e1e1;
+    transform: scaleY(1.1);
+
+}
+.pricing-table-2 ul li a{
+    text-decoration: none;
+    color: #777;
+}
+
+.pricing-table-2 .plan li{
+    list-style: none;
+    text-decoration: none;
+    margin-left: 0 15px;
+    border-bottom: 1px #eee dashed;
+    padding: 10px 0;
+}
+.pricing-table-2 .plan-name{
+    text-decoration: none;
+    text-align: center;
+    padding: px 0;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 0 15px;
+    color: #666;
+    border-bottom: 1px #eee dashed;
+
+}
+.pricing-table-2 .plan-pricing{
+    text-decoration: none;
+    text-align: center;
+    padding: 0;
+    font-size: 58px;
+    font-weight: 700;
+    margin-left: 0 15px;
+    color: #666;
+    border-bottom: 1px #eee dashed;
+    background-color: #52B6E5;
+
+}
+
+.pricing-table-2 .plan .btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 16px;
+    border-radius: 5px;
+    color: white;
+    background-color: #3498db;
+    border: solid 2px #3498db;
+}
+.pricing-table-2 .plan .btn:hover{
+    background-color: #1c648b;
+}
+
+
+/* meet-page...start */
+.meet-page{
+    margin-top: 1px;
+    background-color: white;
+    position: relative;
+}
+.meet-page h2{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 50px;
+    color: #333;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.meet-page p{
+    text-align: center;
+    font-size: 20px;
+    color: #777;
+    padding: 0 200px;
+    margin-bottom: 30px;
+}
+.team-1{
+    padding: 60px;
+}
+.team-1 img{
+    /* padding: 50px; */
+    border-radius: 50%;
+    border: solid 3px #999;
+    margin-bottom: 5px;
+}
+.team-1 h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #777;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.team-1 h5{
+    font-size: 13px;
+    text-align: center;
+    color: #777;
+    font-weight: normal;
+}
+.eroo{
+    width: 35px;
+    height: 35px;
+    background-color: rgb(110, 110, 110);
+    position: absolute;
+    top: 350px;
+    left: 10px;
+    border-radius: 6px;
+    float: left;
+}
+.eroo a i{
+    font-size: 20px;
+    padding: 7px;
+    color: white;
+    margin-left: 4px;
+}
+.eroo-2{
+    width: 35px;
+    height: 35px;
+    background-color: rgb(110, 110, 110);
+    position: absolute;
+    left: 96%;
+    top: 350px;
+    border-radius: 6px;
+    float: right;
+}
+.eroo-2 a i{
+    font-size: 20px;
+    padding: 7px;
+    color: white;
+    margin-left: 4px;
+}
+
+/* CONTACT-..START */
+.contact{
+    background-color: #222;
+    padding: 20px 30px;
+}
+.from-1 h1{
+    text-align: left;
+    margin-top: 30px;
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: white;
+}
+.from-1 p{
+    margin-bottom: 10px;
+    color: #999;
+}
+.from-group{
+    padding: 5px 40px;
+    background-color: black;
+    margin-bottom: 20px;
+}
+.from-cntrol{
+    background-color: black;
+    text-align: left;
+    margin-bottom: 10px;
+    height: 230px;
+    width: 100%;
+}
+.send{
+    padding: 10px;
+    border-radius: 6px;
+    background-color: rgb(185, 57, 11);
+    border: solid 2px rgb(185, 57, 11) ;
+    color: white;
+}
+.send:hover{
+    background-color: rgb(210, 78, 29);
+}
+
+.from-2 h1{
+    text-align: left;
+    margin-top: 30px;
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: white;
+}
+.addres{
+    list-style: none;
+    margin-bottom: 30px;
+}
+.addres li a{
+    text-decoration: none;
+    color: #999;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.addres .twitt a{
+    font-weight: bold;
+}
+
+.from-3 h2{
+    text-align: left;
+    margin-top: 30px;
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: white;
+}
+.social{
+    list-style: none;
+}
+.social li a {
+    text-decoration: none;
+    color: #999;
+    font-size: 17px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.social a i{
+    width: 36px;
+    height: 36px;
+    background-color: #1586c3;
+    border-radius: 50%;
+    padding: 10px;
+    color: white;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.social .google i{
+    width: 36px;
+    height: 36px;
+    background-color: orangered;
+    border-radius: 50%;
+    padding: 10px;
+    color: white;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.social  .Pinterest i{
+    width: 36px;
+    height: 36px;
+    background-color: #cb2027;
+    border-radius: 100%;
+    padding: 10px;
+    color: white;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.social li a:hover{
+    color: #1586c3;
+}
+.social i:hover{
+    opacity:0.8;
+}
+.social  .Linkedin i{
+    width: 36px;
+    height: 36px;
+    background-color: #21a6d8;
+    border-radius: 100%;
+    padding: 10px;
+    color: white;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.social  .Twitter i{
+    width: 36px;
+    height: 36px;
+    background-color: #5bceff;
+    border-radius: 100%;
+    padding: 10px;
+    color: white;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.social  .Youtube i{
+    width: 36px;
+    height: 36px;
+    background-color: #ce332d;
+    border-radius: 100%;
+    padding: 9px;
+    color: white;
+    margin-right: 10px;
+    font-size: 18px;
+}
+/* footer-start */
+.footer{
+    padding: 20px 100px;
+}
+.footer p{
+    color: #222;
+    float: left;
+}
+.footer h4{
+    color: #222;
+    float: right;
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}

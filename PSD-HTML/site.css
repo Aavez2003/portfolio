@@ -1,0 +1,402 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+ul,ol{
+    list-style: none;
+}
+.clear
+{
+    clear: both;
+}
+.Container{
+    width: 90%;
+    height: 1000px;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+}
+.menu
+{
+    background-color: #eaca1c;
+    padding: 10px 0;
+}
+.logo
+{
+    width: 60px;
+    height: 60px;
+    margin-left: 50px;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    
+    padding: 15px 30px;
+
+    display: inline-block;
+}
+.content
+{
+    padding: 50px 40px;
+    position: absolute;
+    /* padding-bottom: 250px; */
+}
+.Happy
+{
+    padding-top: 40px 0;
+}
+.Happy h2{
+    font-size: 50px;
+    margin: 20px 0;
+}
+.Happy p{
+    font-size: 15px;
+    margin: 10px 0;
+}
+.Happy button{
+    margin: 10px 0;
+    padding: 7px 2px;
+    border: 2px solid  #eaca1c;
+    background-color:  #eaca1c;
+}
+.Happy button:hover{
+    background-color:  #dec121;
+}
+
+.employ-Number
+{
+    padding: 20px 0;
+    height: 800px;
+    background-color: #eaca1c;
+    margin-top: 450px;
+}
+.content-inbox
+{
+    background-color: #e5e5e5;
+    height: 300px;
+    margin: 0px 110px;
+    position: relative;
+    top: 600px; 
+}
+.content-inbox h3{
+
+    margin-top: 70px;
+    padding: 0px 40px;
+    font-size: 22px;
+    color: #dec121;
+}
+.content-inbox p
+{
+    margin-top: 10px;
+    padding: 0px 40px;
+    font-size: 15px;
+    color: #000;
+}
+.content-inbox button
+{
+    margin-top: 10px;
+    background-color: #dec121;
+    border: solid 2px #dec121;
+    margin-left: 40px;
+}
+.content-inbox button:hover
+{
+    background-color: #eaca1c;
+}
+.Garphics img
+{
+    margin-top: 40px;
+    height: 220px;
+    width: 220px;
+}
+.stets img{
+    margin-top: 40px;
+    height: 220px;
+    width: 220px;
+}
+.employ-Number h2{
+
+    padding-top: 160px;
+    padding-left: 100px;
+    font-size: 35px;
+}
+.employ-Number p{
+    padding: 20px;
+    padding-left: 90px;
+    font-size: 15px;
+}
+.employ-Number button
+{
+    margin: 10px 0px;
+    margin-left: 90px;
+    background-color: #000;
+    border: solid 2px #000;
+    color: white;
+}
+.employ-Number button:hover
+{
+    background-color: #fff;
+    color: #000;
+    border: solid 2px #fff;
+}
+.team img{
+
+    height: 100%;
+    width: 100%;
+
+}
+
+.Femliy
+{
+    background-color: #fff;
+}
+.Femliy-taem
+{
+
+    background-color: #e5e5e5;
+    margin: 60px;
+    height: 600px;
+}
+.Femliy-pepele img
+{
+    height: 600px;
+}
+.Femliy-taem h2{
+    color: #f2d00c;
+    font-size: 30px;
+    margin-top: 100px;
+}
+.Femliy-taem p{
+    color: #000;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-right: 200px;
+}
+.Femliy-taem button
+{
+    margin-top: 20px;
+    background-color: #dec121;
+    border: solid 2px #dec121;
+}
+.Femliy-taem button:hover
+{
+    background-color: #eaca1c;
+}
+.Femliy-sets img
+{
+     width: 300px;
+     height: 300px;
+     margin-top: 20px;
+     margin-left: 100px;
+}
+.About
+{
+    height: 700px;
+    background-color: #000;
+}
+.About h2{
+    text-align: center;
+    color: #dec121;
+    padding-top: 50px;
+    display: block;
+}
+.About p{
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    padding: 10px 40px;
+}
+.About img
+{
+    padding: 10px 0px;
+    width: 100%;
+    height: 450px;
+}
+.About button
+{
+    border: solid 2px #dec121;
+    background-color: #dec121;
+    margin: 10px 280px;
+}
+.About button:hover
+{
+
+    background-color: #f2d00c;
+
+}
+
+
+.our-Team
+{
+    background-color: white;
+    height: 500px;
+}
+.our-temm-in
+{
+    height: 500px;
+    margin-top: 100px;
+}
+
+.our-Team h2{
+    margin-top: 300px;
+}
+.our-Team p{
+    margin-top: 20px;
+    font-size: 15px;
+}
+.our-Team button
+{
+    margin-top: 20px;
+    border: solid 2px #000;
+    background-color: #000;
+    color: white;
+}
+.method
+{
+    height: 700px;
+    background-color:#e5e5e5;
+    margin-top: 100px;
+}
+.our-method h2
+{
+    margin-top: 120px;
+    margin-left: 80px;
+
+}
+.our-method p{
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left: 80px;
+    
+
+}
+.our-method button
+{
+    margin-top: 20px;
+    border: solid 2px #000;
+    background-color: #000;
+    color: white;
+    margin-left: 80px;
+}
+.method img
+{
+    width: 80%;
+    height: 550px;
+}
+.our-method{
+    padding: 80px 0px;
+}
+
+
+.subscribe
+{
+    background-color: #fff;
+    height: 500px;
+    padding: 50px; 
+
+}
+.subscribe-in
+{ 
+    height: auto;
+}
+.table
+{
+    padding: 60px;
+    background-color: black;
+    height: 500px;
+}
+.table label
+{
+    color: #fff;
+    display: inline-block;
+}
+.table input
+{
+    background-color: black;
+    border: solid 2px #fff;
+    width: 100%;
+    margin: 5px 0px;
+}
+.table .txt-mes
+{
+    padding: 40px 0px;
+}
+.table p{
+    margin-top: 5px;
+    color: white;
+    font-size: 15px;
+}
+.SLETTER
+{
+    padding: 100px 0px;
+    padding-right: 200px;
+}
+.SLETTER h2{
+    color: #dec121;
+    margin-bottom: 20px;
+}
+.SLETTER p{
+    color: #000;
+    margin-bottom: 30px;
+}
+.SLETTER button{
+    border: solid 2px #000;
+    background-color: #000;
+    color: white;
+    padding: 5px 10px;
+}
+.CONTACT
+{
+    background-color: #dec121;
+    margin-top: 100px;
+    padding: 80px;
+}
+.CONTACT-box h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.CONTACT-box p{
+    text-align: center;
+}
+.mep
+{
+    margin-top: 30px;
+    height: auto;
+}
+.mep img{
+    height: 500px;
+}
+.CONTACT button
+{
+    margin-top: 30px;
+    text-align: center;
+    padding: 3px 20px;
+    background-color: #000;
+    border: solid 2px #000;
+    color: #fff;
+    margin: 35px 550px;
+}
+
+.footer
+{
+    padding: 30px 30px;
+    background-color: #000;
+}
+.footer h4{
+    padding: 10px 0px;
+    color: #dec121;
+}
+.footer a{
+    color: #dec121;
+}
+
+
+
+

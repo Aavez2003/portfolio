@@ -1,0 +1,383 @@
+:root {
+    --bg-color: #1f2122;
+    --pink-color: #e75e8d;
+    --light-pink-color: #ec6090;
+    --light-gray-color: #666;
+    --dark-gray-color: #27292a;
+    --white-color: #fff;
+}
+
+::selection {
+    background-color: var(--light-pink-color);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: var(--bg-color);
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.clear::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+@media screen and (max-width:1200px) {
+    .container {
+        width: 980px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+}
+
+
+/* Header */
+
+.header {
+    padding: 30px 0;
+}
+
+.logo {
+    float: left;
+}
+
+
+/* Search Box */
+
+.search {
+    float: left;
+    margin-left: 100px;
+    position: relative;
+}
+
+.search input {
+    padding: 15px 15px 15px 40px;
+    background-color: var(--dark-gray-color);
+    border: none;
+    border-radius: 20px;
+    color: var(--light-gray-color);
+}
+
+.search i {
+    position: absolute;
+    display: inline-block;
+    color: var(--light-gray-color);
+    padding: 15px;
+}
+
+
+/* Menu */
+
+.menu {
+    float: right;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    color: var(--light-gray-color);
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.menu li a:hover,
+.menu li.active a {
+    color: var(--pink-color);
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px;
+    background-color: var(--dark-gray-color);
+    border-radius: 30px;
+}
+
+.btn img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.btn:hover {
+    background-color: var(--light-pink-color);
+    color: var(--white-color) ;
+}
+
+#chk1 {
+    display: none;
+}
+
+.btn-toggle {
+    display: none;
+    width: 40px;
+    height: 40px;
+    background-color: #e75e8d;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    color: var(--white-color);
+    position: absolute;
+    right: 30px;
+}
+
+@media screen and (max-width:1200px) {
+    .search {
+    margin-left: 30px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .header {
+        background-color: var(--white-color);
+        position: relative;
+    }
+    .search {
+        display: none;
+    }
+    .logo img {
+        display: inline;
+        width: auto;
+    }
+    .logo,
+    .menu,
+    .menu li {
+        float: none;
+        border-top: 1px solid #eee;
+    }
+    .menu li a {
+        display: block;
+        text-align: center;
+    }
+    .menu li a.btn {
+        background-color: transparent;
+    }
+    .menu li a.btn img {
+        display: none;
+    }
+    .menu li a.btn:hover {
+        color: var(--pink-color) !important;
+    }
+    .menu {
+        position: absolute;
+        left: 20%;
+        right: 20%;
+        background-color: var(--white-color);
+        top: 110px;
+        /* display: none; */
+        visibility: hidden;
+        transform: translateY(50px);
+        opacity: 0;
+        transition: 0.5s;
+    }
+    #chk1:checked+.menu {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0);
+    }
+    .btn-toggle {
+        display: inline-block;
+    }
+}
+
+/* -----------MAIN-BANNER-START----------------- */
+.page-content {
+    margin-top: 110px;
+    background-color: #27292a;
+    padding: 60px;
+    border-radius: 23px;
+}
+.col-lg-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+}
+
+
+.main-banner {
+    background-image: url(../images/banner-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    min-height: 380px;
+    border-radius: 23px;
+    padding: 80px 60px;
+}
+.main-banner h6 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.main-banner h4 em {
+    font-style: normal;
+    color: #ec6090;
+    font-size: 50px;
+}
+.main-banner h4 {
+    font-size: 50px;
+    color: #fff;
+}
+.main-button a {
+    font-size: 14px;
+    color: #fff;
+    background-color: #e75e8d;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+}
+/* MOST POPULAR START */
+
+.most-popular {
+    margin-top: 60px;
+    padding: 30px;
+    background-color: #1f2122;
+    border-radius: 23px;
+}
+
+.col-lg-12 {
+    /* flex: 0 0 auto; */
+    width: 100%;
+}
+
+.heading-section h4 {
+    color: #ec6090;
+    font-size: 34px;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+.heading-section h4 em {
+    color: #fff;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.col-lg-3 {
+    width: 25%;
+    float: left;
+}
+
+.most-popular .item {
+    background-color: #27292a;
+    padding: 40px 15px;
+    border-radius: 23px;
+    margin-bottom: 30px;
+}
+
+.most-popular .item img {
+    border-radius: 23px;
+}
+
+.most-popular .item h4 {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+.most-popular .item ul {
+    float: right;
+    margin-top: 20px;
+}
+.col-lg-6 {
+    width: 50%;
+    float: left;
+}
+
+.most-popular .item .item {
+    padding: 0px;
+    border-radius: 0px;
+    background-color: transparent;
+    margin-bottom: 0px;
+}
+
+
+/* -------------  Gaming Library   ------------------.*/
+.gaming-library {
+    margin-top: 60px;
+    padding: 30px;
+    background-color: #1f2122;
+    border-radius: 23px;
+}
+
+.col-lg-12 {
+    width: 100%;
+    float: left;
+}
+
+.gaming-library .item {
+    border-bottom: 1px solid #27292a;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.gaming-library .item ul li img {
+    margin-top: -30px;
+}
+
+
+.gaming-library .main-button {
+    text-align: center;
+    margin-bottom: -53px;
+}
+
+
+/* --------------- FOOTER ------------------- */
+
+footer p {
+    text-align: center;
+    padding: 30px 0px;
+    color: #fff;
+    font-weight: 300;
+}
+
+footer p a {
+    color: #fff;
+    transition: all .3s;
+}
